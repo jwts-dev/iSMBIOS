@@ -56,6 +56,14 @@
       <Project>{c081b25a-8eb2-46f8-8b03-40e215e986e5}</Project>
       <Name>iTin.Core.Hardware.Specification.Dmi</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\lib\iTin.Core.Hardware\iTin.Core.Hardware\iTin.Core.Hardware.csproj">
+      <Project>{712177ab-3598-4d8b-b8b8-888928dafa7d}</Project>
+      <Name>iTin.Core.Hardware</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\lib\iTin.Core\iTin.Core\iTin.Core.csproj">
+      <Project>{a1fc8e7e-8a01-4456-bf5c-14c40981befa}</Project>
+      <Name>iTin.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
