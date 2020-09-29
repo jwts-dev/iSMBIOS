@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29215.179
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{ED996611-FCEC-4B5A-9C30-DF6AC5C178C1}"
 EndProject
@@ -26,8 +26,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iTin.Core.Hardware.Specification.Dmi", "lib\iTin.Core.Hardware\iTin.Core.Hardware.Specification\iTin.Core.Hardware.Specification.Dmi\iTin.Core.Hardware.Specification.Dmi.csproj", "{C081B25A-8EB2-46F8-8B03-40E215E986E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iSMBIOS.ConsoleApp", "test\iSMBIOS.ConsoleApp\iSMBIOS.ConsoleApp.csproj", "{768A3709-640D-40D8-B286-59F3AF8A6AC4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iSMBIOS.ConsoleAppCore", "test\iSMBIOS.ConsoleAppCore\iSMBIOS.ConsoleAppCore.csproj", "{B48B4999-3A85-4157-ADB8-515BCEC0E74B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,10 +61,6 @@ Global
 		{768A3709-640D-40D8-B286-59F3AF8A6AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{768A3709-640D-40D8-B286-59F3AF8A6AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{768A3709-640D-40D8-B286-59F3AF8A6AC4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B48B4999-3A85-4157-ADB8-515BCEC0E74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B48B4999-3A85-4157-ADB8-515BCEC0E74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B48B4999-3A85-4157-ADB8-515BCEC0E74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B48B4999-3A85-4157-ADB8-515BCEC0E74B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,7 +76,6 @@ Global
 		{886079D7-F5BA-40EC-84BA-1DEE1BACEFFC} = {75510385-E1C2-4CC6-A097-FA894BC07056}
 		{C081B25A-8EB2-46F8-8B03-40E215E986E5} = {75510385-E1C2-4CC6-A097-FA894BC07056}
 		{768A3709-640D-40D8-B286-59F3AF8A6AC4} = {407B179E-ED42-4D2F-A089-D0F3C0283079}
-		{B48B4999-3A85-4157-ADB8-515BCEC0E74B} = {407B179E-ED42-4D2F-A089-D0F3C0283079}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E253257-825E-40F1-9BD8-3624F02E7544}

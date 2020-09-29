@@ -144,7 +144,10 @@ namespace iTin.Core.Hardware.Specification.Smbios
 
             for (int i = 1; i <= count; i++)
             {
-                items.Add(Strings[i]);
+                if (i < Strings.Length)
+                {
+                    items.Add(Strings[i]);
+                }
             }
 
             return items.AsReadOnly();

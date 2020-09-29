@@ -7,7 +7,7 @@ namespace iTin.Core.Hardware.Specification.Smbios
     /// <summary>
     /// Defines the contents of a structure type.
     /// </summary>
-    internal readonly struct SmbiosStructureInfo : IEquatable<SmbiosStructureInfo>
+    internal struct SmbiosStructureInfo : IEquatable<SmbiosStructureInfo>
     {
         #region constructor/s
 

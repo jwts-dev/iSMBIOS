@@ -23,13 +23,15 @@ namespace iTin.Core.Hardware
         public static T AsEnumType<T>(this Enum target) where T : struct
         {
             int itemIndex = target.GetItemIndex();
-            bool hasParse = Enum.TryParse(itemIndex.ToString(), out T result);
-            if (hasParse)
+            try
             {
+                T result = (T)Enum.Parse(typeof(T), itemIndex.ToString());
                 return result;
             }
-
-            return default(T);
+            catch
+            {
+                return default(T);
+            }
         }
 
         /// <summary>
@@ -146,7 +148,7 @@ namespace iTin.Core.Hardware
             object enumTypedValue = Enum.Parse(enumType, value.ToString());
 
             return enumType.GetFields()[0].FieldType == typeof(byte)
-               ? (byte)enumTypedValue 
+               ? (byte)enumTypedValue
                : (int)enumTypedValue;
         }
     }
